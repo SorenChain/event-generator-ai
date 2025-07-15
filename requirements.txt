@@ -1,0 +1,13 @@
+langchain_openai
+openai
+python-dotenv
+# tweepy
+motor
+vaderSentiment
+aiohttp
+pandas
+langchain_community
+nltk
+beautifulsoup4
+bing-image-downloader
+boto3
