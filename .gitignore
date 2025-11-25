@@ -1,0 +1,111 @@
+# ============================================
+# Python general
+# ============================================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.env/
+.venv/
+env/
+ENV/
+
+# Bytecode
+*.pyo
+*.pyd
+
+# Build / distribution
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Generated model caches
+.cache/
+.pytest_cache/
+
+# Temporary files
+*.log
+*.tmp
+*.temp
+
+# ============================================
+# Project-specific ignores
+# ============================================
+
+# MongoDB logging outputs
+prediction_market_logs/
+logs/
+*/logs/
+*.log.json
+
+# Temp downloaded files (images, HTML, etc.)
+downloads/
+temp/
+tmp/
+*.html
+*.xml
+*.csv
+
+# If google_search or scrapers create temp files:
+app/services/search/__temp__/
+app/services/scrapers/__temp__/
+
+# Uploaded image temp storage
+uploaded/
+uploads/
+*.jpg
+*.jpeg
+*.png
+*.gif
+
+# DataFrames or intermediate result files
+*.pickle
+*.pkl
+
+# AI model outputs / summaries / generated questions cache
+generated/
+cache/
+app/cache/
+
+# ============================================
+# Credentials & environment files
+# ============================================
+*.env
+.env.local
+.env.production
+.env.dev
+.env.test
+secrets.json
+credentials.json
+service-account.json
+*.pem
+*.key
+
+# ============================================
+# OS files
+# ============================================
+.DS_Store
+Thumbs.db
+
+# ============================================
+# Editor / IDE
+# ============================================
+.vscode/
+.idea/
+*.swp
+
+# ============================================
+# Docker
+# ============================================
+docker-compose.override.yml
+*.pid
+*.sock
+
+# ============================================
+# Jupyter (if used)
+# ============================================
+.ipynb_checkpoints/
+*.ipynb
