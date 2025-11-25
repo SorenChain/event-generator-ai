@@ -30,7 +30,7 @@ DEFAULT_MODEL = os.getenv("DEFAULT_MODEL", "gpt-4o-mini")
 
 # MongoDB Settings
 MONGODB_URI = os.getenv("MONGODB_URI", "")
-DATABASE_NAME = os.getenv("DATABASE_NAME", "cyrus")
+DATABASE_NAME = os.getenv("DATABASE_NAME", "cyrus_db")
 EVENT_COLLECTION = os.getenv("EVENT_COLLECTION", "cyrus_collection")
 
 # Search Settings
